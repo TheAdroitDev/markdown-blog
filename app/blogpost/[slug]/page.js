@@ -15,7 +15,7 @@ import OnThisPage from "@/components/onthispage";
 
 export default async function Page({ params }) {
     const slug = (await params).slug
-    const filePath = `/content/${slug}.md`
+    const filePath = `content/${slug}.md`
     if (!fs.existsSync(filePath)) {
         notFound();
     }
