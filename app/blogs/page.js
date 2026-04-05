@@ -65,7 +65,7 @@ const Blog = async () => {
                             </div>
 
                             <Link
-                                href={`/blog/${blog.slug}`}
+                                href={`/blogpost/${blog.slug}`}
                                 className={buttonVariants({ variant: "outline" })}
                             >
                                 Click here
