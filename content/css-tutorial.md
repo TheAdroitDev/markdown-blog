@@ -3,7 +3,7 @@ title: CSS Tutorial
 description: Unlock the true potential of making UI
 slug: css-tutorial
 date: 11/02/2024
-author: Harry
+author: Shivam Verma
 image: https://logos-world.net/wp-content/uploads/2024/12/CSS-Cascading-Style-Sheets-Logo-New.png
 ---
 

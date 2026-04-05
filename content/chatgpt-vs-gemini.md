@@ -3,7 +3,7 @@ title: ChatGPT vs. Gemini
 description: ChatGPT vs Gemini Comparing Two AI Powerhouses in 2025
 slug: chatgpt-vs-gemini
 date: 11/9/2024
-author: Harry
+author: Shivam Verma
 image: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 ---
 
