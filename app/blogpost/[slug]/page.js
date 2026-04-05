@@ -12,10 +12,11 @@ import { Processor, unified } from 'unified'
 import rehypePrettyCode from "rehype-pretty-code";
 import { transformerCopyButton } from '@rehype-pretty/transformers'
 import OnThisPage from "@/components/onthispage";
+import path from "path";
 
 export default async function Page({ params }) {
     const slug = (await params).slug
-    const filePath = `content/${slug}.md`
+    const filePath = path.join(process.cwd(), "content", `${slug}.md`);
     if (!fs.existsSync(filePath)) {
         notFound();
     }
