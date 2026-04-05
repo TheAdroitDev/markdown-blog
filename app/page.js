@@ -147,7 +147,7 @@ export default function Home() {
               <h2 className="text-4xl font-bold dark:bg-slate-900 text-gray-800 dark:text-gray-200 h-16 p-2 rounded-2xl">Top Blogs</h2>
               <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">Check out our most popular blog posts</p>
             </div>
-            <Link href={"/blog"}>
+            <Link href={"/blogs"}>
               <div className="flex flex-wrap justify-center">
                 {/* Blog 1 */}
                 <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
