@@ -156,7 +156,7 @@ export default function Home() {
                     <div className="mt-4">
                       <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">C Language Tutorial</h3>
                       <p className="mt-2 text-gray-600 dark:text-gray-400">"Learn the fundamentals of C programming with clear explanations and practical examples. Perfect for aspiring developers and coders!</p>
-                      <Button className="m-2" variant="outline" href="/blog-post-1">Read More</Button>
+                      <Button className="m-2" variant="outline" href="/blogpost/c-tutorial-in-hindi">Read More</Button>
                     </div>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ export default function Home() {
                     <div className="mt-4">
                       <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">JavaScript Tutorial</h3>
                       <p className="mt-2 text-gray-600 dark:text-gray-400">Unlock the power of JavaScript! Dive into interactive lessons to build dynamic, feature-rich web applications.</p>
-                      <Button className="m-2" variant="outline" href="/blog-post-2">Read More</Button>
+                      <Button className="m-2" variant="outline" href="/blogpost/js-tutorial-in-hindi">Read More</Button>
                     </div>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default function Home() {
                     <div className="mt-4">
                       <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">CSS Tutorial</h3>
                       <p className="mt-2 text-gray-600 dark:text-gray-400">Master the art of styling web pages with our concise and beginner-friendly CSS tutorials. Learn how to create visually stunning designs with ease!</p>
-                      <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+                      <Button className="m-2" variant="outline" href="/blogpost/css-tutorial">Read More</Button>
                     </div>
                   </div>
                 </div>
