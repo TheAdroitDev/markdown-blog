@@ -16,11 +16,14 @@ import path from "path";
 
 export default async function Page({ params }) {
     const slug = (await params).slug
-    const filePath = path.join(process.cwd(), "content", `${slug}.md`);
-    if (!fs.existsSync(filePath)) {
+    const res = await fetch(`https://adroit-blogs.vercel.app/content/${slug}.md`, {
+        cache: "no-store"
+    });
+    if (!res.ok) {
         notFound();
     }
-    const fileContent = fs.readFileSync(filePath, "utf-8");
+
+    const fileContent = await res.text();
     const { content, data } = matter(fileContent);
 
     const processor = unified()
