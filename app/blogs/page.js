@@ -39,7 +39,7 @@ const Blog = () => {
                             </div>
 
                             {/* Link to the full blog post */}
-                            <Link href={`/blogpost/${blog.slug}`} className={buttonVariants({ variant: "outline" })}>Click here</Link>
+                            <Link href={`/blog/${blog.slug}`} className={buttonVariants({ variant: "outline" })}>Click here</Link>
                         </div>
                     </div>
                 ))}
